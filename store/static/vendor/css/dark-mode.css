@@ -1,0 +1,34 @@
+body {
+    background-color:black;
+    color: antiquewhite;
+    padding-top: 56px;
+}
+
+.my-footer {
+     background-color:rgb(16, 16, 46) !important;
+}
+
+.my-navbar {
+    background-color:rgb(16, 16, 46) !important;
+}
+
+.list-group-item {
+    background-color: black;
+}
+
+.card-body {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.card-footer  {
+    background-color: rgb(40, 26, 26);
+}
+
+.page-item {
+    background-color: black;
+}
+
+.filter-group {
+    margin-top: 70px;
+}

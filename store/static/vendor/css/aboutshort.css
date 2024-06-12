@@ -1,0 +1,103 @@
+[data-toggle="collapse"] i:before {  
+    content: "\f068";
+}
+
+
+[data-toggle="collapse"].collapsed i:before {
+    content: "\f067";
+}
+.custom-section2 {
+    .my-custom-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+    #accordion {
+        .card-header {
+            margin-bottom: 8px;
+        }
+
+        .accordion-title {
+            position: relative;
+            display: block;
+            padding: 8px 0 8px 50px;
+            background: #213744;
+            border-radius: 8px;
+            overflow: hidden;
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            width: 100%;
+            text-align: left;
+            transition: all .4s ease-in-out;
+
+            i {
+                position: absolute;
+                width: 40px;
+                height: 100%;
+                left: 0;
+                top: 0;
+                color: #fff;
+                background: radial-gradient(rgba(#213744, .8), #213744);
+                text-align: center;
+                border-right: 1px solid transparent;
+            }
+
+            &:hover {
+                padding-left: 60px;
+                background: #213744;
+                color: #fff;
+
+                i {
+                    border-right: 1px solid #fff;
+                }
+            }
+        }
+
+        .accordion-body {
+            padding: 40px 55px;
+
+
+            ul {
+                list-style: none;
+                margin-left: 0;
+                padding-left: 0;
+            }
+
+            li {
+                padding-left: 1.2rem;
+                text-indent: -1.2rem;
+
+                &:before {
+                    content: "\f10a";
+                    padding-right: 5px;
+                    font-family: "Flaticon";
+                    font-size: 16px;
+                    font-style: normal;
+                    color: #213744;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/*.custom-header header {*/
+/*    background-color: rgb(144, 121, 202); !* Цвет фона заголовка *!*/
+/*    text-align: center;*/
+/*    */
+/*}*/
+
+.custom-section1 {
+    margin-bottom: 30px;
+    color:black !important;
+    height: 116px;
+}
+
+.custom-header {
+    color:black !important;
+}

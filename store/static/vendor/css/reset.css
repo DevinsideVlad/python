@@ -1,0 +1,11 @@
+﻿body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url("../img/scals_1920x1080.jpg") no-repeat center top fixed;
+      background-size: cover;
+
+    }

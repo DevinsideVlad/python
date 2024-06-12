@@ -1,0 +1,105 @@
+﻿{% extends 'products/base.html' %}
+{% load static %}
+
+
+
+
+{% block css %}
+    <link href="{% static 'vendor/css/profile.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <h2 class="mt-3 mb-3">Профиль</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- Ваш текст или контент -->
+                        <img width="150" height="150" src="{% if user.image %} {% else %} {% static 'vendor/img/avatar.jpg' %} {% endif %}"
+                             class="img-thumbnail float-right rounded-circle mt-3">
+
+                    </div>
+                    <div class="col-lg-6">
+                        <form action="{% url 'users:profile' %}" method="post">
+                            {% csrf_token %}
+                            <div class="form-row ">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="small mb-1" for="{{ form.first_name.id_for_label }}">Имя</label>
+                                        {{ form.first_name }}
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="form-row">
+                                   <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="small mb-1" for="{{ form.last_name.id_for_label }}">Фамилия</label>
+                                        {{ form.last_name }}
+                                    </div>
+                                 </div>
+                               </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <section>
+    <div class="container pt-6">
+        <div class="text-center mt-6">
+            <h3>Заказы</h3>
+            <div class="orders mt-6">
+                <table class="table">
+                    <thead>
+                    <tr class="table-light">
+                        <th scope="col">#</th>
+                        <th scope="col">Статус</th>
+                        <th scope="col">Создан</th>
+                        <th scope="col">Итого</th>
+                        <th scope="col">Действие</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for order in object_list %}
+
+                    <tr class="table-success">
+                        <th scope="row">{{ order.id }}</th>
+                        <td>{{ order.status }}</td>
+                        <td>{{ order.created }}</td>
+                        <td>{{ order.price }} руб.</td>
+                        <td>
+                            <a href="order.html">просмотреть</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                                        <tr>
+                        <th scope="row">1</th>
+                        <td>Оплачен</td>
+                        <td>8 дек. 23 года</td>
+                        <td>5 070 руб.</td>
+                        <td>
+                            <a href="order.html">просмотреть</a>
+                        </td>
+                    </tr>
+
+{#                    <tr class="table-info">#}
+{#                        <th scope="row">3</th>#}
+{#                        <td>В пути</td>#}
+{#                        <td>14 нояб. 21 года</td>#}
+{#                        <td>9 566 руб.</td>#}
+{#                        <td>#}
+{#                            <a href="order.html">просмотреть</a>#}
+{#                        </td>#}
+{#                    </tr>#}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

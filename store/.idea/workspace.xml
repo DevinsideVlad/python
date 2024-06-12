@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="123fa880-4d19-4b7d-a001-53edcf5838ce" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/manage.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2XrG7zL1a833djXmZye2LbWTvQg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/БГУИР/ТРПО/store-server-django-master/gitstore&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;GitIgnore&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\store-server\store\orders\templates\orders" />
+      <recent name="C:\Users\Asus\store-server\store\products\fixtures" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.car-run">
+    <configuration name="car-run" type="PythonConfigurationType" factoryName="Python">
+      <module name="store" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="store-venv" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="store" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="123fa880-4d19-4b7d-a001-53edcf5838ce" name="Changes" comment="" />
+      <created>1699379621680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699379621680</updated>
+      <workItem from="1699549751221" duration="8246000" />
+      <workItem from="1699616602173" duration="3958000" />
+      <workItem from="1699620623182" duration="725000" />
+      <workItem from="1699650101456" duration="965000" />
+      <workItem from="1699700718991" duration="2538000" />
+      <workItem from="1699775939725" duration="3966000" />
+      <workItem from="1699786340032" duration="1061000" />
+      <workItem from="1699787421357" duration="1429000" />
+      <workItem from="1699810178788" duration="1855000" />
+      <workItem from="1699812064635" duration="1843000" />
+      <workItem from="1699864723458" duration="3489000" />
+      <workItem from="1699890256179" duration="8279000" />
+      <workItem from="1699948558959" duration="1165000" />
+      <workItem from="1699983974937" duration="8056000" />
+      <workItem from="1700053046401" duration="217000" />
+      <workItem from="1700076221231" duration="5350000" />
+      <workItem from="1700150721482" duration="6655000" />
+      <workItem from="1700216794872" duration="4164000" />
+      <workItem from="1700236418461" duration="1076000" />
+      <workItem from="1700237525967" duration="14510000" />
+      <workItem from="1700305204468" duration="176000" />
+      <workItem from="1700314099045" duration="2898000" />
+      <workItem from="1700378428082" duration="589000" />
+      <workItem from="1700379422096" duration="1100000" />
+      <workItem from="1700390992584" duration="6607000" />
+      <workItem from="1700414956648" duration="5374000" />
+      <workItem from="1700421869083" duration="3930000" />
+      <workItem from="1700470520328" duration="6075000" />
+      <workItem from="1700483471406" duration="1067000" />
+      <workItem from="1700502964665" duration="3685000" />
+      <workItem from="1700555949853" duration="218000" />
+      <workItem from="1700581589268" duration="1639000" />
+      <workItem from="1700586717508" duration="1921000" />
+      <workItem from="1700636599587" duration="3172000" />
+      <workItem from="1700660188838" duration="1165000" />
+      <workItem from="1700680944424" duration="6185000" />
+      <workItem from="1700720517311" duration="1301000" />
+      <workItem from="1700738471789" duration="7183000" />
+      <workItem from="1700758385150" duration="3891000" />
+      <workItem from="1700774933622" duration="1389000" />
+      <workItem from="1700848147651" duration="7114000" />
+      <workItem from="1700898952022" duration="9776000" />
+      <workItem from="1700918800484" duration="1247000" />
+      <workItem from="1700931502572" duration="10475000" />
+      <workItem from="1701007073035" duration="8766000" />
+      <workItem from="1701019083883" duration="12872000" />
+      <workItem from="1701066788887" duration="5205000" />
+      <workItem from="1701103301914" duration="7131000" />
+      <workItem from="1701154133653" duration="1287000" />
+      <workItem from="1701196102308" duration="6123000" />
+      <workItem from="1701252474972" duration="652000" />
+      <workItem from="1701285595772" duration="2935000" />
+      <workItem from="1701335325709" duration="5534000" />
+      <workItem from="1701355087575" duration="14039000" />
+      <workItem from="1701379418836" duration="233000" />
+      <workItem from="1701421884790" duration="5277000" />
+      <workItem from="1701443750985" duration="16328000" />
+      <workItem from="1701500505787" duration="6435000" />
+      <workItem from="1701519490189" duration="2143000" />
+      <workItem from="1701593434771" duration="2605000" />
+      <workItem from="1701606975395" duration="12145000" />
+      <workItem from="1701640383679" duration="646000" />
+      <workItem from="1701677191234" duration="677000" />
+      <workItem from="1701724818774" duration="1199000" />
+      <workItem from="1701786244466" duration="19115000" />
+      <workItem from="1701852230188" duration="631000" />
+      <workItem from="1701859921905" duration="4149000" />
+      <workItem from="1701883766109" duration="9027000" />
+      <workItem from="1701958262991" duration="16822000" />
+      <workItem from="1702023526777" duration="1101000" />
+      <workItem from="1702029672904" duration="1243000" />
+      <workItem from="1702031505158" duration="12021000" />
+      <workItem from="1702060590925" duration="6536000" />
+      <workItem from="1702114637364" duration="9229000" />
+      <workItem from="1702155461211" duration="628000" />
+      <workItem from="1702214090493" duration="2961000" />
+      <workItem from="1702224228875" duration="2664000" />
+      <workItem from="1702241588887" duration="65000" />
+      <workItem from="1702281686710" duration="5247000" />
+      <workItem from="1702757579006" duration="726000" />
+      <workItem from="1702825586265" duration="6832000" />
+      <workItem from="1702886032535" duration="3351000" />
+      <workItem from="1712083804271" duration="9000" />
+      <workItem from="1712083828313" duration="364000" />
+      <workItem from="1713286650206" duration="870000" />
+      <workItem from="1718029844973" duration="71000" />
+      <workItem from="1718029970447" duration="1498000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/users/templates/users/profile.html</url>
+          <line>70</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/products/views.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/products/views.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/store$car_run.coverage" NAME="car-run Coverage Results" MODIFIED="1702886034424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/store$manage.coverage" NAME="manage Coverage Results" MODIFIED="1699553608530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/store$urls.coverage" NAME="urls Coverage Results" MODIFIED="1699553392032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/store" />
+  </component>
+</project>
